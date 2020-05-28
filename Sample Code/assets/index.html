@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h2>Unconventional Calculator</h2>
+    </header>
+    <section id="calculator">
+        <input type="number" id="input-number">
+        <div id="calc-actions">
+            <button type="button" id="add-btn">+</button>
+            <button type="button" id="sub-btn">-</button>
+            <button type="button" id="mul-btn">*</button>
+            <button type="button" id="div-btn">/</button>
+        </div>
+    </section>
+    <section id="results">
+        <h2 id="calc-desc">0</h2>
+        <h2>Result:<span id="calculator-result">0</span></h2>
+    </section>
+    <script src="./scripts/ui.js"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
